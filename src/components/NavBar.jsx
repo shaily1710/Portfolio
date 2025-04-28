@@ -15,11 +15,15 @@ const NavBar = () => {
             <a href="#about">About</a>
           </li>
           <li className="opacity-70 hover:opacity-100 transition-opacity duration-300">
+            <a href="#skills">Skills</a>
+          </li>
+          <li className="opacity-70 hover:opacity-100 transition-opacity duration-300">
             <a href="#projects">Projects</a>
           </li>
           <li className="opacity-70 hover:opacity-100 transition-opacity duration-300">
             <a href="#contact">Contact</a>
           </li>
+          
         </ul>
 
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -43,6 +47,11 @@ const NavBar = () => {
                 <span className="text-lg">Contact</span>
               </a>
             </li>
+            <li className="group px-10 opacity-80 hover:opacity-100 transition-opacity">
+              <a href="#skills" onClick={() => setIsMenuOpen(false)}>
+                <span className="text-lg">Skills</span>
+              </a>
+              </li>
           </ul>
         )}
       </nav>

@@ -16,13 +16,11 @@ const About = () => {
         viewport={{once:true}}
         transition={{duration:0.8, delay:0.2}} className='flex flex-col items-center md:items-start justify-center gap-3'>
 
-            {/* <span className='px-2 py-2 text-white bg-zinc-800 rounded-full text-xs md:text-sm'>Open to Hire</span> */}
-
             <h1 className='text-5xl md:text-6xl lg:text-7xl font-semibold text-center md:text-left bg-gradient-to-r from-blue-600 via-sky-500 to-blue-400 text-transparent bg-clip-text py-1'>Shaily Chaturvedi</h1>
 
             <h3 className='text-xl md:text-2xl lg:text-3xl font-light text-center md:text-left bg-gradient-to-r from-blue-600 via-sky-400 to-blue-600 text-transparent bg-clip-text'>Full-Stack Developer</h3>
 
-            <p className='text-sm text-blue-100 text-center md:text-left text-pretty'>Hi! I am Shaily, a student at LNMIIT, studying B.tech. This is my portfolio website.
+            <p className='text-sm text-blue-100 text-center md:text-left text-pretty'>Hi! I am Shaily, a student at LNMIIT, studying B.tech. I am passionate about good looking websites, that serve a purpose, without making things unnecessarily complicated. So here is my portfolio website.
             </p>
 
             <div className='flex gap-5 mt-3'>
