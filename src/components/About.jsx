@@ -29,8 +29,12 @@ const About = () => {
             </p>
 
             <div className='flex gap-5 mt-3'>
-                <BiLogoGithub className='text-2xl md:text-3xl text-white cursor-pointer hover:scale-110 hover:text-indigo-500 hover:rotate-12 transition-all duration-300 ease-in-out' />
-                <BiLogoLinkedin className='text-2xl md:text-3xl text-white cursor-pointer hover:scale-110 hover:text-blue-500 hover:rotate-12 transition-all duration-300 ease-in-out' />
+                <a href="https://github.com/shaily1710" target="_blank" rel="noopener noreferrer">
+                  <BiLogoGithub className='text-2xl md:text-3xl text-white cursor-pointer hover:scale-110 hover:text-indigo-500 hover:rotate-12 transition-all duration-300 ease-in-out' />
+                </a>
+                <a href="https://www.linkedin.com/in/shaily-chaturvedi-49b50a280/" target="_blank" rel="noopener noreferrer">
+                  <BiLogoLinkedin className='text-2xl md:text-3xl text-white cursor-pointer hover:scale-110 hover:text-blue-500 hover:rotate-12 transition-all duration-300 ease-in-out' />
+                </a>
             </div>
         </motion.div>
 
