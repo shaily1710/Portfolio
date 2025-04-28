@@ -1,11 +1,8 @@
-import project1 from "./assets/project1.png";
-import project2 from "./assets/project2.png";
-import project3 from "./assets/project3.png";
-import project4 from "./assets/project4.jpg";
-import project5 from "./assets/project5.png";
-import project6 from "./assets/project6.png";
 import BookWise from "./assets/BookWise.jpg";
 import MechWeb from "./assets/MechWeb.jpg";
+import { title } from "framer-motion/client";
+import portfolio from "./assets/portfolio.jpg";
+
 export const projectData = [
   {
     id: 1,
@@ -24,5 +21,14 @@ export const projectData = [
       "A full-scale, production-grade library system with rate-limiting, DDoS protection, caching (Redis), multi-media uploads, complex database queries, advanced error handling, and custom notifications. Built with Next.js, PostgreSQL, Redis, and NextAuth.",
     link: "https://book-wise-eta.vercel.app/",
     technologies: ["NextJs", "TypeScript", "PostgreSQL", "Redis", "Drizzle"],
+  },
+  {
+    id: 3,
+    image: portfolio,
+    title: "Portfolio Website",
+    description:
+      "This is my personal portfolio website, built with React and Tailwind CSS. It showcases my skills, projects, and contact information. The site features a modern design and smooth animations.",
+    Link: "https://portfolio-orcin-one-81.vercel.app/",
+    technologies: ["React", "Tailwindcss", "Framer-motion"],
   },
 ];
